@@ -9,7 +9,7 @@ class TuneCompo extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Expanded(
       child: Container(
-        height: 90,
+        //height: 90,
         color:item.color,
         child: GestureDetector(
           onTap: () {
