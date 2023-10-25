@@ -21,12 +21,11 @@ class TunePlayer extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor:  const Color.fromARGB(255, 38, 51, 60),
-        title:  const Center(
-          child: Text(
-            'Tune Player',
-            style: TextStyle(
-              fontSize: 25,
-            ),
+       centerTitle: true,
+        title: const Text(
+          'Flutter Tune',
+          style: TextStyle(
+            fontSize: 25,
           ),
         ),
       ),
